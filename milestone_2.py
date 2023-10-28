@@ -6,12 +6,16 @@ import random
 word_list = ['Apple', 'Bannana', 'Peach', 'Pear', 'Rasberries']
 word = random.choice(word_list)
 
-# Get user input
-guess = input('Please enter a single letter ',)
 
-# Check user input 
+def user_input():
+	# Get user input
+	guess = input('Please enter a single letter ',)
 
-if len(guess) == 1 and guess.isalpha():
-	print('Good guess') 
-else:
-	print('Oops! That is not a valid input')
+	# Check user input 
+
+	if len(guess) == 1 and guess.isalpha():
+		print('Good guess') 
+	else:
+		print('Oops! That is not a valid input')
+
+user_input()
