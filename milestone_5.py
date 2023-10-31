@@ -80,7 +80,8 @@ def play_game(word_list):
          else:
              print('Congratulations. You won the game!')
              break
-        
+
+# Call play_game function 
 play_game(word_list)
      
             
