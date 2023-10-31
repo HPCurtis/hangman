@@ -3,11 +3,16 @@
 # Import  python modules used within script
 import random
 
+
+# Create lsit of words and randomly choose one
 word_list = ['Apple', 'Bannana', 'Peach', 'Pear', 'Rasberries']
 word = random.choice(word_list)
 
-
+# Create user_input function 
 def user_input():
+	'''
+	'''
+	
 	# Get user input
 	guess = input('Please enter a single letter ',)
 
