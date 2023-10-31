@@ -29,11 +29,14 @@ def ask_for_input():
 
 def check_guess(word, guess):
 
-	# COnvert guess varaible to lower case
+	# Convert guess variable to lower case
 	guess = guess.lower()
+
+	# Check using if stament if the chosen letter is in the word
 	if guess in word:
 		print("Good guess! {} is in the word.".format(guess))
 	else:
 		print("Sorry {} is not in the word. Try again.".format(guess))
 
+# Run the hangman function like a main() function.
 hangman()
